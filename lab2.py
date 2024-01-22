@@ -1,9 +1,21 @@
 def main():
 
     # TODO: Step 2 - Create a complex data structure
-    about_me = {}
+    about_me = {'full_name': 'Jacob Gallant',
+                'student_id': 10278081,
+                'pizza_toppings': [
+                    "ONION",
+                    "BACON",
+                    "GREEN PEPPER"
+                ],
+                'movies': [
+                    {'title': 'The Dark Night Rises',
+                     'genre': 'Action'},
+                     {'title': 'Rise of The Guardians',
+                      'genre': 'Fantasy'}
+                ]
+                }
     
-
     # TODO: Step 3 - Add another movie to the data structure
     
 # TODO: Step 4 - Function that prints student name and ID	
