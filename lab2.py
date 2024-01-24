@@ -19,8 +19,8 @@ def main():
     # TODO: Step 3 - Add another movie to the data structure
     about_me['movies'].append({'title': 'Star Wars',
                                'genre': 'Sci-Fi'})
-    print_student_name_and_id(about_me)
     return
+
 
 # TODO: Step 4 - Function that prints student name and ID	
 def print_student_name_and_id(about_me):
@@ -33,9 +33,10 @@ def print_student_name_and_id(about_me):
     return
     
 # TODO: Step 5 - Function that adds pizza toppings to data structure
-def add_pizza_toppings(about_me, toppings):
-    about_me['pizza_toppings'].append({'pineapple',
+def add_pizza_toppings(about_me, more_pizza_toppings):
+    more_pizza_toppings = about_me['pizza_toppings'].append({'pineapple',
                                       'cheese'})
+    more_pizza_toppings()
     return
 
 # TODO: Step 6 - Function that prints bullet list of pizza toppings
